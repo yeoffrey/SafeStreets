@@ -1,5 +1,5 @@
 baseurl: ""
-url: "https://gleam.run/"
+url: "https://yeoff.ca/safestreets"
 
 markdown: kramdown
 
@@ -25,10 +25,9 @@ include:
   - .well-known
 
 defaults:
-  -
-    scope:
-      path: ""      # all files
-      type: posts   # limit to posts
+  - scope:
+      path: "" # all files
+      type: posts # limit to posts
     values:
       layout: post
 
