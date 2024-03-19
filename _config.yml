@@ -1,5 +1,5 @@
 baseurl: "safesteets/"
-url: "http://yeoff.ca/"
+url: "http://yeoff.ca"
 
 markdown: kramdown
 
