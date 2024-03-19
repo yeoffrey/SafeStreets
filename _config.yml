@@ -1,5 +1,5 @@
-baseurl: "/safestreets/"
-url: "https://yeoffrey.github.io"
+baseurl: "/SafeStreets/"
+url: "http://yeoff.ca"
 
 markdown: kramdown
 
