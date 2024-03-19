@@ -1,8 +1,9 @@
 ---
 layout: page
-title: News log
-subtitle: What's happening in the Gleam world?
+title: Articles
+subtitle: Posts written by Safe Streets Members
 ---
+
 <ul class="news-posts">
   {% for post in site.posts %}
   <li>
@@ -10,6 +11,9 @@ subtitle: What's happening in the Gleam world?
     {% if post.subtitle %}
     <p>{{ post.subtitle }}</p>
     {% endif %}
-    <span>Published {{ post.date | date: "%d %b, %Y" }} by {{ post.author }}</span>
-  {% endfor %}
+    <span
+      >Published {{ post.date | date: "%d %b, %Y" }} by {{ post.author }}</span
+    >
+    {% endfor %}
+  </li>
 </ul>

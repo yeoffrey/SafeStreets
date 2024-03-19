@@ -197,7 +197,7 @@ main.content {
 }
 
 .logo img {
-  transform: rotate(-10deg);
+  transform: rotate(-180deg);
   display: inline-block;
   height: 1.3em;
   margin-right: 0.25em;

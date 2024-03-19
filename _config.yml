@@ -1,13 +1,12 @@
-baseurl: "/SafeStreets/"
-url: "http://yeoff.ca"
+baseurl: "/safesteets/"
+url: "yeoff.ca"
 
 markdown: kramdown
 
 permalink: "/news/:title/"
 
-title: Gleam
-description: Gleam is a fast, friendly, and functional language for building type-safe, scalable systems!
-
+title: Safe Streets Halton
+description: Safe Streets Halton is a group that aims to eliminate traffic deaths in the Halton Region
 plugins:
   - jekyll-redirect-from
   - jekyll-feed
