@@ -1,9 +1,9 @@
-baseurl: "safesteets/"
-url: "http://yeoff.ca"
-
 markdown: kramdown
 
 permalink: "/news/:title/"
+
+baseurl: "/safesteets"
+url: "http://yeoff.ca"
 
 title: Safe Streets Halton
 description: Safe Streets Halton is a group that aims to eliminate traffic deaths in the Halton Region

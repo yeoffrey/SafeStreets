@@ -9,7 +9,7 @@
     {%- capture description -%}{% if page.description %}{{ page.description | strip }}{% else %}{{ default_description }}{% endif %}{%- endcapture -%}
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="shortcut icon" href="/images/lucy/lucy.svg" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/lucy/lucy.svg" />
     {% feed_meta %}
 
     <title>{{ title }}</title>
@@ -32,12 +32,6 @@
       content="{{ site.url }}/images/social-image.png"
     />
 
-    <script
-      async
-      defer
-      data-domain="gleam.run"
-      src="https://plausible.io/js/plausible.js"
-    ></script>
     <link rel="stylesheet" href="{{ site.baseurl }}/styles/main.css" />
 
     {% for preload in page.preload %}
@@ -53,7 +47,7 @@
         <div class="first">
           <a class="logo" href="/">
             <img
-              src="/images/lucy/lucy.svg"
+              src="{{ site.baseurl }}/images/lucy/lucy.svg"
               alt="Lucy the star, Gleam's mascot"
             />
             Gleam
